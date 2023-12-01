@@ -1577,7 +1577,7 @@ if selected_option=="D, metabolite exchange network (including transporter, mRNA
             os.remove('mRNAmetabolite-Enzyme.zip') 
         if(os.path.isfile('Transporter.zip')):
             os.remove('Transporter.zip')
-        
+       
         #Input  
         Meta = Meta1.copy()
         Meta_Old = Meta1.copy()
