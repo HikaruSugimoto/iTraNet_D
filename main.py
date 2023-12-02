@@ -92,7 +92,7 @@ if Meta_blood is not None:
    
 st.sidebar.subheader('2, Select an analysis method')
 options = ["D, metabolite exchange network (including transporter, mRNA, and metabolite) (transcriptome, metabolome (organ or cell) and metabolome (blood or medium))"]
-selected_option = st.sidebar.radio('',options, key="2")
+selected_option = st.sidebar.radio('The following interaction is automatically estimated upon submission of the omics data.',options, key="2")
 
 st.sidebar.subheader('3, Set parameters')
 options = ['cyan','blue','green','red','magenta','yellow','black','white']
